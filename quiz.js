@@ -4,7 +4,7 @@ function checkAnswer() {
     const correctAnswer = "4";
 
     // Get user's selected answer
-    const userAnswer = document.querySelector('input[name="quiz"]:checked');
+     const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 
     // Get the feedback element
     const feedback = document.getElementById('feedback');
